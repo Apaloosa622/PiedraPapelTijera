@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="PPT.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <video  loop autoplay preload muted>
+    
+            <source src="images/backgroundVideo.mp4" type='video/mp4; codecs="avc1,mp4a"' />
+            <source src="images/backgroundVideo.mp4" type='video/ogg; codecs="theora,vorbis"'/>
+            <source src="images/backgroundVideo.mp4" type='video/webm; codecs="vp8,vorbis"' />
+        
+        </video>
+        
+        <div class="text-container">
+            <div class="text-video">
+                <h1 class="titulo">PIEDRA   PAPEL o  TIJERA</h1>
+                </br>
+                <p class="start-text">Escoja una opcion para competir!.</p>
+        
+                <button id="rock" type="button" onclick="botonPiedra();">PIEDRA</button>
+                <button id="paper" type="button" onclick="botonPapel();">PAPEL</button>
+                <button id="scissors" type="button" onclick="botonTijera();">TIJERA</button>
+            </div>        
+       
+        </div>
+    
+    </div>    
+</body>
+</html>
+

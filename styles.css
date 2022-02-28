@@ -1,0 +1,141 @@
+* video {
+    background-attachment: fixed: [url:"../../HTML/images/backgroundVideo.mp4"];
+    position: center;
+    width: 100%;
+}
+
+.titulo {
+    border-radius: 4px;
+    text-align: center;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 550px;
+    margin: 125px;;
+    position: absolute;
+    bottom:8em;
+    right:17em;
+
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+
+}
+
+.start-text {
+    
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 550px;
+    margin: 150px;;
+    position: absolute;
+    bottom:10em;
+    right:17em;
+
+    border-radius:1.5em;
+    color:yellow;
+    text-transform:uppercase;
+
+}
+
+#rock {
+    
+    align-items: center;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 125px;;
+    position: absolute;
+bottom:4em;
+right:35em;
+
+border-radius:1.5em;
+color:black;
+text-transform:uppercase;
+
+}
+
+#paper{
+    align-items: center;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: gray;
+    border: none;
+    color: #ffff;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 125px;;
+    position: absolute;
+bottom:4em;
+right: 18em;
+
+
+border-radius:1em;
+color:black;
+text-transform:uppercase;
+
+    }    
+
+
+#scissors{
+    align-items: center;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: yellow;
+    border: none;
+    
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 125px;;
+    position: absolute;
+bottom:4em;
+right:0.5em;
+
+
+border-radius:1em;
+color:black;
+text-transform:uppercase;
+padding: auto;
+}
+
+#group-btn {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+#group-btn:after {
+    content: '�';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+ button:hover span {
+    padding-right: 25px;
+  }
+  
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
